@@ -16,3 +16,14 @@ Dockerを使用してMySQLを構築しました。
 <img width="1171" alt="スクリーンショット 2024-04-20 19 04 51" src="https://github.com/koikekatsumi/movie-Studay07/assets/163390515/c802d6cd-bbf0-4d75-8fee-45fc932ac09f">
 
 <img width="1368" alt="スクリーンショット 2024-04-21 3 09 04" src="https://github.com/koikekatsumi/movie-Studay07/assets/163390515/169461a7-b388-4a77-8801-876163909119">
+
+
+## 追加補足　【GitHub】HTTPSとSSHの違い
+
+### 【HTTPS】
+- アカウント情報だけでリポジトリに書き込めるので、どこからでも簡単にアクセスできる。
+- すべてのファイアウォールで公開されている。
+- GitHub公式が推奨している通信。
+### 【SSH】
+- 情報漏えい対策としては最適解。
+- 鍵がハードディスク上のユーザアクセスが可能なファイルとして保存されることが欠点。
